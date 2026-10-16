@@ -1,0 +1,11 @@
+From: "Example Bank Support" <support@examp1e-bank.test>
+To: student@example.com
+Reply-To: helpdesk@mail-collector.test
+Return-Path: <bounce@mail-collector.test>
+Authentication-Results: mx.example.com; spf=fail; dkim=none; dmarc=fail
+Subject: Urgent: verify your account now
+MIME-Version: 1.0
+Content-Type: text/html; charset=utf-8
+
+<p>Your account will be suspended within 24 hours. Verify immediately:</p>
+<a href="http://203.0.113.9/verify">https://www.example-bank.test/login</a>
